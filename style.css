@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Gotham font*/
+
+/* Style the video: 100% width and height to cover the entire window */
+#HomeVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: relative;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 350px 20px 20px;
+  font-size: 70px;
+  color: #E7EAE5;
+  width: 100%;
+  padding: 20px;
+}
