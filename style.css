@@ -4,18 +4,45 @@
   border: 0;
 }
 
-/*Gotham font*/
+/*nav bar css */
+nav {
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: 60px;
 
-/* Style the video: 100% width and height to cover the entire window */
+
+}
+
+a {
+  text-decoration: none;
+  color:#73806A;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+
+nav a:hover {
+  color: #ABBAA4;
+  transition: .5s;
+}
+
+
+
+/*=============== Homepage CSS======================= */
+
 #HomeVideo {
   position: fixed;
+  z-index: -1;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
   position: relative;
   text-align: center;
@@ -26,3 +53,5 @@
   width: 100%;
   padding: 20px;
 }
+
+/*=============== About page CSS======================= */
