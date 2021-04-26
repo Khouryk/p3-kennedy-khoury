@@ -55,3 +55,13 @@ nav a:hover {
 }
 
 /*=============== About page CSS======================= */
+
+h2{
+    font-size: 35px;
+    color: #E7EAE5;
+    font-family: Montserrat;
+    Margin:80px auto;
+    padding:170px;
+    Text-align: center;
+    background-image: url('images/aboutpic1.JPG');
+}
