@@ -4,6 +4,9 @@
   border: 0;
 }
 
+body{
+  background: #E7EAE5;
+}
 /*nav bar css */
 nav {
   font-size: 20px;
@@ -43,6 +46,7 @@ nav a:hover {
   min-height: 100%;
 }
 
+/*================ nav CSS ================================ */
 .content {
   position: relative;
   text-align: center;
@@ -59,9 +63,24 @@ nav a:hover {
 h2{
     font-size: 35px;
     color: #E7EAE5;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     Margin:80px auto;
     padding:170px;
     Text-align: center;
     background-image: url('images/aboutpic1.JPG');
+}
+
+.about-para {
+  text-align: center;
+  color: #231F20;
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+}
+
+/*--- WILL NEED TO MAKE INTO CLASS ----*/
+img {
+  display: block;
+  margin: auto;
+  padding: 40px;
+  max-width: 500px;
 }
