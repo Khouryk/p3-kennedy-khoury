@@ -60,8 +60,8 @@ nav a:hover {
 
 /*=============== About page CSS======================= */
 
-h2{
-    font-size: 35px;
+div.about-heading{
+    font-size: 30px;
     color: #E7EAE5;
     font-family: 'Montserrat', sans-serif;
     Margin:80px auto;
@@ -71,16 +71,26 @@ h2{
 }
 
 .about-para {
+  margin: 20px 100px 20px;
   text-align: center;
   color: #231F20;
   font-family: 'Karla', sans-serif;
   font-size: 25px;
 }
 
-/*--- WILL NEED TO MAKE INTO CLASS ----*/
-img {
+
+div.resume img {
   display: block;
   margin: auto;
-  padding: 40px;
+  padding: 200px;
   max-width: 500px;
 }
+
+div.resume:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: transform .4s;
+}
+
+/*=============== Video page CSS======================= */
