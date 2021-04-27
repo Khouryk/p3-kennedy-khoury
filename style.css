@@ -94,3 +94,22 @@ div.resume:hover {
 }
 
 /*=============== Video page CSS======================= */
+div.video-heading h1{
+  font-size: 110px;
+  color: #353B40;
+  font-family: 'Montserrat', sans-serif;
+  Margin:80px auto;
+  padding:10px;
+  Text-align: center;
+}
+
+div.sport-vids h2{
+  font-size: 40px;
+  color: #62686F;
+  font-family: 'Karla', sans-serif;
+  Margin:80px auto;
+  padding:10px;
+  Text-align: center;
+}
+
+div.sport-vids
